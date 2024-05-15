@@ -1,0 +1,21 @@
+import java.util.Scanner
+class Pessoa {
+  var nome: String = ""
+  var idade: Int = 0 
+  var altura: Double = 0.0
+  
+  fun mostrarInf() {
+    println ("Nome: $nome")
+    println ("Idade: $idade")
+    println ("Altura: $altura")
+}
+}
+
+fun main() {
+  val pessoa1 = Pessoa()
+  pessoa1.nome = "Kauã"
+  pessoa1.idade = 17
+  pessoa1.altura = 1.73
+  pessoa1.mostrarInf()
+
+}
